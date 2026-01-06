@@ -20,14 +20,12 @@ def root():
 def get_news():
     return {"news": fetch_crypto_news()}
 
+# Changed function name to 'run_agent_basic'
 @app.get("/run-agent")
-def run_agent():
+def run_agent_basic():
     return run_crypto_agent()
 
-
-# In your main.py - The text inside the @app.get() is your URL path
-@app.get("/analyze")  # This means you visit /analyze
-def run_agent():
+# Changed function name to 'run_deep_analysis'
+@app.get("/analyze")
+def run_deep_analysis():
     return run_crypto_agent()
-
-
