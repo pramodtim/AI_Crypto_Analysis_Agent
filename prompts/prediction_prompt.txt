@@ -1,0 +1,15 @@
+As a Crypto Forecasting AI, your goal is to provide a price outlook based on the following analysis summary.
+
+ANALYSIS SUMMARY:
+{analysis_report}
+
+TASK:
+1. TARGET PRICE: Provide a likely price range for BTC, ETH, and SOL for the next 7 days.
+2. BULL/BEAR CASE: 
+   - What happens if the news stays positive? (Bull Case)
+   - What happens if a flash crash occurs? (Bear Case)
+3. MARKET PHASE: Identify if we are in 'Accumulation', 'Markup', 'Distribution', or 'Markdown' phase.
+4. CONFIDENCE: Rate your prediction confidence from 1-10 and explain why.
+
+FORMAT: 
+Return the output in a clean, structured list. Use "⚠️ DISCLAIMER: This is AI-generated analysis, not financial advice." at the end.
